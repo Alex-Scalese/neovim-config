@@ -40,7 +40,9 @@ Plug 'kevinhui/vim-docker-tools'
 Plug 'airblade/vim-gitgutter'
 
 " Conquer of Completion
-Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+" build Coc form source code when required
+" Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " go lang
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
@@ -134,7 +136,7 @@ nnoremap <C-X><LEFT> <C-W><C-H>
 " -------------------------------------------------------------------------------- 
 " coc.nvim default settings
 " -------------------------------------------------------------------------------- 
-let g:coc_node_path='/opt/node/node-v12.13.1/bin/node'
+let g:coc_node_path='/usr/bin/node'
 
 " if hidden is not set, TextEdit might fail.
 set hidden
