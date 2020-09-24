@@ -11,6 +11,7 @@ Plug 'ayu-theme/ayu-vim'
 Plug 'morhetz/gruvbox'
 Plug 'jnurmine/zenburn'
 Plug 'danilo-augusto/vim-afterglow'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 " airline
 Plug 'vim-airline/vim-airline'
@@ -66,7 +67,7 @@ set ffs=unix,mac,dos
 set t_Co=256
 set termguicolors     " enable true colors support
 let ayucolor="mirage" " for mirage version of theme
-colorscheme afterglow
+colorscheme dracula
 
 " editor appearance 
 "
